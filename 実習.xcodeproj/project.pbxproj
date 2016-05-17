@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		AE5A63951CE58373003C5990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5A63941CE58373003C5990 /* AppDelegate.swift */; };
-		AE5A63971CE58373003C5990 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5A63961CE58373003C5990 /* ViewController.swift */; };
+		AE5A63971CE58373003C5990 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5A63961CE58373003C5990 /* Main.swift */; };
 		AE5A639A1CE58373003C5990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5A63981CE58373003C5990 /* Main.storyboard */; };
 		AE5A639C1CE58373003C5990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5A639B1CE58373003C5990 /* Assets.xcassets */; };
 		AE5A639F1CE58373003C5990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5A639D1CE58373003C5990 /* LaunchScreen.storyboard */; };
+		AE5A63A71CE585D7003C5990 /* TimeTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5A63A61CE585D7003C5990 /* TimeTable.storyboard */; };
+		AE7101D71CE70E5A0078EC13 /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE7101D61CE70E5A0078EC13 /* haikei.jpg */; };
+		AE8DA6ED1CE5A724004D2EC8 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DA6EC1CE5A724004D2EC8 /* Map.storyboard */; };
+		AE8DA6EF1CE5A74E004D2EC8 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DA6EE1CE5A74E004D2EC8 /* WebView.storyboard */; };
+		AE8DA6F11CE5A75D004D2EC8 /* TaskManagement.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DA6F01CE5A75D004D2EC8 /* TaskManagement.storyboard */; };
+		AE8DA6F31CE5A7CB004D2EC8 /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DA6F21CE5A7CB004D2EC8 /* TimeTable.swift */; };
+		AE8DA6F51CE5A7D2004D2EC8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DA6F41CE5A7D2004D2EC8 /* Map.swift */; };
+		AE8DA6F71CE5A7DD004D2EC8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DA6F61CE5A7DD004D2EC8 /* WebView.swift */; };
+		AE8DA6F91CE5A7E6004D2EC8 /* TaskManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DA6F81CE5A7E6004D2EC8 /* TaskManagement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE5A63911CE58373003C5990 /* 実習.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "実習.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5A63941CE58373003C5990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE5A63961CE58373003C5990 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE5A63961CE58373003C5990 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		AE5A63991CE58373003C5990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE5A639B1CE58373003C5990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5A639E1CE58373003C5990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE5A63A01CE58373003C5990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5A63A61CE585D7003C5990 /* TimeTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TimeTable.storyboard; sourceTree = "<group>"; };
+		AE7101D61CE70E5A0078EC13 /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = haikei.jpg; path = ../../../../../../Pictures/haikei.jpg; sourceTree = "<group>"; };
+		AE8DA6EC1CE5A724004D2EC8 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		AE8DA6EE1CE5A74E004D2EC8 /* WebView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
+		AE8DA6F01CE5A75D004D2EC8 /* TaskManagement.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TaskManagement.storyboard; sourceTree = "<group>"; };
+		AE8DA6F21CE5A7CB004D2EC8 /* TimeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
+		AE8DA6F41CE5A7D2004D2EC8 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		AE8DA6F61CE5A7DD004D2EC8 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		AE8DA6F81CE5A7E6004D2EC8 /* TaskManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManagement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +73,17 @@
 			isa = PBXGroup;
 			children = (
 				AE5A63941CE58373003C5990 /* AppDelegate.swift */,
-				AE5A63961CE58373003C5990 /* ViewController.swift */,
+				AE5A63961CE58373003C5990 /* Main.swift */,
+				AE8DA6F21CE5A7CB004D2EC8 /* TimeTable.swift */,
+				AE8DA6F41CE5A7D2004D2EC8 /* Map.swift */,
+				AE8DA6F61CE5A7DD004D2EC8 /* WebView.swift */,
+				AE8DA6F81CE5A7E6004D2EC8 /* TaskManagement.swift */,
 				AE5A63981CE58373003C5990 /* Main.storyboard */,
+				AE5A63A61CE585D7003C5990 /* TimeTable.storyboard */,
+				AE8DA6EC1CE5A724004D2EC8 /* Map.storyboard */,
+				AE8DA6EE1CE5A74E004D2EC8 /* WebView.storyboard */,
+				AE8DA6F01CE5A75D004D2EC8 /* TaskManagement.storyboard */,
+				AE7101D61CE70E5A0078EC13 /* haikei.jpg */,
 				AE5A639B1CE58373003C5990 /* Assets.xcassets */,
 				AE5A639D1CE58373003C5990 /* LaunchScreen.storyboard */,
 				AE5A63A01CE58373003C5990 /* Info.plist */,
@@ -96,7 +123,7 @@
 				TargetAttributes = {
 					AE5A63901CE58373003C5990 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = E6ZSGD5ZFX;
+						DevelopmentTeam = ATM925VG3G;
 					};
 				};
 			};
@@ -124,8 +151,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE5A639F1CE58373003C5990 /* LaunchScreen.storyboard in Resources */,
+				AE5A63A71CE585D7003C5990 /* TimeTable.storyboard in Resources */,
+				AE8DA6ED1CE5A724004D2EC8 /* Map.storyboard in Resources */,
 				AE5A639C1CE58373003C5990 /* Assets.xcassets in Resources */,
+				AE8DA6EF1CE5A74E004D2EC8 /* WebView.storyboard in Resources */,
 				AE5A639A1CE58373003C5990 /* Main.storyboard in Resources */,
+				AE8DA6F11CE5A75D004D2EC8 /* TaskManagement.storyboard in Resources */,
+				AE7101D71CE70E5A0078EC13 /* haikei.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5A63971CE58373003C5990 /* ViewController.swift in Sources */,
+				AE5A63971CE58373003C5990 /* Main.swift in Sources */,
+				AE8DA6F71CE5A7DD004D2EC8 /* WebView.swift in Sources */,
+				AE8DA6F31CE5A7CB004D2EC8 /* TimeTable.swift in Sources */,
+				AE8DA6F51CE5A7D2004D2EC8 /* Map.swift in Sources */,
 				AE5A63951CE58373003C5990 /* AppDelegate.swift in Sources */,
+				AE8DA6F91CE5A7E6004D2EC8 /* TaskManagement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "実習/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.--";
@@ -261,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "実習/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.--";
@@ -287,6 +325,7 @@
 				AE5A63A51CE58373003C5990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="g16-Z8-QOa">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--便利アプリ-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="便利アプリ" id="BYZ-38-t0r" customClass="Main" customModule="実習" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,182 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7b-Ic-tmp">
+                                <rect key="frame" x="0.0" y="175" width="600" height="90"/>
+                                <color key="backgroundColor" red="0.80593057313769756" green="1" blue="0.18668961552376606" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="Qcy-jS-56Q"/>
+                                    <constraint firstAttribute="width" constant="600" id="h0E-3c-ixA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="titleShadowOffset" width="3" height="0.0"/>
+                                <state key="normal" title="時間割">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="0th-94-io6" kind="show" id="XQ2-hW-h48"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdh-S6-1p1">
+                                <rect key="frame" x="0.0" y="273" width="600" height="90"/>
+                                <color key="backgroundColor" red="0.37213237334308569" green="1" blue="0.84074139435549056" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="c64-vG-EDc"/>
+                                    <constraint firstAttribute="height" constant="90" id="eog-AG-nXr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="学内地図"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="dr6-7D-Q5A" kind="show" id="iq9-gK-MxM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bjd-ag-irx">
+                                <rect key="frame" x="0.0" y="371" width="600" height="90"/>
+                                <color key="backgroundColor" red="1" green="0.74564580313323003" blue="0.97042780620992908" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="AFY-lJ-vel"/>
+                                    <constraint firstAttribute="height" constant="90" id="zvv-JX-lP4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="ユニパ"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="e0b-6R-9jr" kind="show" id="dOh-Hz-wF0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtB-mG-DR1">
+                                <rect key="frame" x="0.0" y="469" width="600" height="90"/>
+                                <color key="backgroundColor" red="1" green="0.60987676531642199" blue="0.60640003008608834" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="0jl-zF-UNF"/>
+                                    <constraint firstAttribute="width" constant="600" id="FbX-aC-FUj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="課題管理"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="8RO-6f-6Kc" kind="show" id="DiZ-ns-UPS"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fdh-S6-1p1" firstAttribute="top" secondItem="p7b-Ic-tmp" secondAttribute="bottom" id="0n4-1h-iPh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gtB-mG-DR1" secondAttribute="trailing" id="ADu-Zc-Qza"/>
+                            <constraint firstItem="gtB-mG-DR1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="P3r-F6-Ind"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="p7b-Ic-tmp" secondAttribute="trailing" id="SzS-Fh-VGV"/>
+                            <constraint firstItem="fdh-S6-1p1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="T3q-6d-1a7"/>
+                            <constraint firstItem="fdh-S6-1p1" firstAttribute="top" secondItem="p7b-Ic-tmp" secondAttribute="bottom" id="Y8u-gs-EXj"/>
+                            <constraint firstItem="Bjd-ag-irx" firstAttribute="top" secondItem="fdh-S6-1p1" secondAttribute="bottom" id="ZEX-FR-8Gf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fdh-S6-1p1" secondAttribute="trailing" id="fcX-Ld-fNc"/>
+                            <constraint firstItem="p7b-Ic-tmp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="id5-yi-mHx"/>
+                            <constraint firstItem="Bjd-ag-irx" firstAttribute="top" secondItem="fdh-S6-1p1" secondAttribute="bottom" id="oAa-bJ-qWw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bjd-ag-irx" secondAttribute="trailing" id="qaR-p3-wuP"/>
+                            <constraint firstItem="gtB-mG-DR1" firstAttribute="top" secondItem="Bjd-ag-irx" secondAttribute="bottom" id="sMm-eC-bTT"/>
+                            <constraint firstItem="Bjd-ag-irx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="w6J-8A-rml"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="便利アプリ" id="KtT-id-fZq"/>
+                    <connections>
+                        <outlet property="mapBtn" destination="fdh-S6-1p1" id="395-zo-JtQ"/>
+                        <outlet property="taskManagementBtn" destination="gtB-mG-DR1" id="eDO-0X-J32"/>
+                        <outlet property="timeTableBtn" destination="p7b-Ic-tmp" id="kwU-8R-SxB"/>
+                        <outlet property="yunipaBtn" destination="Bjd-ag-irx" id="daR-QK-yTc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="609" y="997"/>
+        </scene>
+        <!--TimeTable-->
+        <scene sceneID="nE1-eK-nws">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="TimeTable" storyboardName="TimeTable" referencedIdentifier="TimeTable" id="0th-94-io6" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="q4M-Xf-YDn"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8QV-QI-3VR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080.5" y="891.99999999999989"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="PTi-39-dTZ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Map" storyboardName="Map" referencedIdentifier="Map" id="dr6-7D-Q5A" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="W7w-j3-KDZ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hVc-AF-LxE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080.5" y="982.99999999999989"/>
+        </scene>
+        <!--WebView-->
+        <scene sceneID="Eva-Cc-BMf">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="WebView" storyboardName="WebView" referencedIdentifier="WebView" id="e0b-6R-9jr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="wke-up-g0o"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FAc-cg-Fg1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080.5" y="1084"/>
+        </scene>
+        <!--TaskManagement-->
+        <scene sceneID="UAx-da-3ch">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="TaskManagement" storyboardName="TaskManagement" referencedIdentifier="TaskManagement" id="8RO-6f-6Kc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="i5r-mb-W0O"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ah7-eI-fYk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080.5" y="1169.9999999999998"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8OB-Rz-5qm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g16-Z8-QOa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9sS-FY-PA9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="S2O-ej-xy5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CX8-OL-B39" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66" y="997"/>
         </scene>
     </scenes>
 </document>

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F7EB37A2358FF8A2DD9718DDE27F98AD808631B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F7EB37A2358FF8A2DD9718DDE27F98AD808631B6" : 0,
+    "711F0627BC21A43506E30F06366D547F95667667" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "42F8E3D2-A5CD-4131-BD7A-DEE02804063B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F7EB37A2358FF8A2DD9718DDE27F98AD808631B6" : "%E5%AE%9F%E7%BF%92\/",
+    "711F0627BC21A43506E30F06366D547F95667667" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "実習",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "実習.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/metoro667\/IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "711F0627BC21A43506E30F06366D547F95667667"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/metoro667\/test3",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F7EB37A2358FF8A2DD9718DDE27F98AD808631B6"
+    }
+  ]
+}

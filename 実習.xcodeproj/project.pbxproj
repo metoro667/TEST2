@@ -13,7 +13,6 @@
 		AE5A639C1CE58373003C5990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5A639B1CE58373003C5990 /* Assets.xcassets */; };
 		AE5A639F1CE58373003C5990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5A639D1CE58373003C5990 /* LaunchScreen.storyboard */; };
 		AE5A63A71CE585D7003C5990 /* TimeTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5A63A61CE585D7003C5990 /* TimeTable.storyboard */; };
-		AE7101D71CE70E5A0078EC13 /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE7101D61CE70E5A0078EC13 /* haikei.jpg */; };
 		AE8DA6ED1CE5A724004D2EC8 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DA6EC1CE5A724004D2EC8 /* Map.storyboard */; };
 		AE8DA6EF1CE5A74E004D2EC8 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DA6EE1CE5A74E004D2EC8 /* WebView.storyboard */; };
 		AE8DA6F11CE5A75D004D2EC8 /* TaskManagement.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DA6F01CE5A75D004D2EC8 /* TaskManagement.storyboard */; };
@@ -32,7 +31,6 @@
 		AE5A639E1CE58373003C5990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE5A63A01CE58373003C5990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE5A63A61CE585D7003C5990 /* TimeTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TimeTable.storyboard; sourceTree = "<group>"; };
-		AE7101D61CE70E5A0078EC13 /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = haikei.jpg; path = ../../../../../../Pictures/haikei.jpg; sourceTree = "<group>"; };
 		AE8DA6EC1CE5A724004D2EC8 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		AE8DA6EE1CE5A74E004D2EC8 /* WebView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
 		AE8DA6F01CE5A75D004D2EC8 /* TaskManagement.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TaskManagement.storyboard; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				AE8DA6EC1CE5A724004D2EC8 /* Map.storyboard */,
 				AE8DA6EE1CE5A74E004D2EC8 /* WebView.storyboard */,
 				AE8DA6F01CE5A75D004D2EC8 /* TaskManagement.storyboard */,
-				AE7101D61CE70E5A0078EC13 /* haikei.jpg */,
 				AE5A639B1CE58373003C5990 /* Assets.xcassets */,
 				AE5A639D1CE58373003C5990 /* LaunchScreen.storyboard */,
 				AE5A63A01CE58373003C5990 /* Info.plist */,
@@ -157,7 +154,6 @@
 				AE8DA6EF1CE5A74E004D2EC8 /* WebView.storyboard in Resources */,
 				AE5A639A1CE58373003C5990 /* Main.storyboard in Resources */,
 				AE8DA6F11CE5A75D004D2EC8 /* TaskManagement.storyboard in Resources */,
-				AE7101D71CE70E5A0078EC13 /* haikei.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

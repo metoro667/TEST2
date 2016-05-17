@@ -5,9 +5,6 @@
 //  Created by 渡辺寛太 on 2016/05/09.
 //  Copyright © 2016年 渡辺寛太. All rights reserved.
 //
-// TEST 追加
-// 1
-// 2
 
 import UIKit
 
